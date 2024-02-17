@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#back-container {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    pointer-events: all;
+
+}
+
+#back-container img {
+    height: 100%;
+    width: 100%;
+
+}
+
+#front-container {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+#main {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
+#nav {
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav a {
+    pointer-events: all;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+#nav-left,
+#nav-right {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+}
+
+#nav-left img {
+    height: 30px;
+    width: 85px;
+}
+
+#hero {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2vw;
+}
+
+#front-left {
+    min-width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.left-text {
+    height: 8vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.left-text h1 {
+    font-size: 9vw;
+    font-weight: 200;
+    font-family: kajiro;
+    text-align: start;
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    top: 100%;
+
+}
+
+.left-text h1:nth-child(1) {
+    top: 0;
+}
+
+#front-left button {
+    height: fit-content;
+    width: fit-content;
+    font-size: 35px;
+    padding: 8px 9% 5px 9%;
+    font-family: kajiro;
+    text-align: center;
+    pointer-events: all;
+    cursor: pointer;
+
+}
+
+#front-right {
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 18px;
+
+}
+
+#front-right>p {
+    font-size: 12px;
+    text-align: end;
+    width: 100%;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#front-right>p:nth-child(3) {
+    margin-bottom: 45px;
+    margin-top: 14px;
+}
+
+#front-img img {
+    height: 20vh;
+    width: 100%;
+    background-color: white;
+
+}
